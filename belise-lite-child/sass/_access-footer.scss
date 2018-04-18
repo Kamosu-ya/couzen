@@ -1,0 +1,48 @@
+#access-footer{
+  .detail{
+    width:600px;
+    dl{
+      dt{
+        width:100px;
+        float:left;
+      }
+      dd{
+        width:500px;
+        float:left;
+        margin:0 0 1em 0;
+      }
+    }
+  }
+  .fb{
+    margin:50px 0 0 0;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+  #access-footer {
+    .detail {
+      width: 100%;
+      h3{
+        text-align: center;
+      }
+      dl {
+        max-width:500px;
+        margin:0 auto;
+        dt {
+          width: 100px;
+        }
+        dd {
+          width: calc( 100% - 100px );
+        }
+      }
+    }
+
+    .fb{
+      width:100%;
+    }
+  }
+
+}

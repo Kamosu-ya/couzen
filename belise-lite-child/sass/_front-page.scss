@@ -1,0 +1,141 @@
+
+/*front-page*/
+
+.front-page{
+  color:#fff;
+
+  article{
+    width:100%;
+    color:#fff;
+    padding: 60px 0px;
+
+    h2{
+      display: block;
+      text-align:center;
+      padding:40px 0;
+    }
+    .img-box{
+      width:500px;
+    }
+    .img-box.box2{
+      display:flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      img {
+        width: calc(100% / 2 );
+      }
+    }
+    .img-box.yoko{
+      width:100%;
+      display:flex;
+      align-items: flex-start;
+      img{
+        width :calc( 100% / 6 );
+        height:auto;
+      }
+    }
+
+    > article{
+      padding-top:0px;
+      width:600px;
+      h3{
+        margin-top:0px;
+        padding-top:0px;
+        display:inline-block;
+        color:#fda319;
+      }
+      button{
+        margin:30px auto 0px;
+        padding:20px 0;
+        width:350px;
+        border:1px solid #fda319;
+        color:#fda319;
+        font-size:1.4em;
+        display: block;
+      }
+      >p{
+        line-height:1.8;
+      }
+
+      > .course-detail{
+        border:1px solid #dcdcdc;
+        padding:15px;
+        margin:25px 0;
+
+        p{
+          margin-left:1em;
+        }
+        ul{
+          li{
+            line-height:1.8;
+            span{
+              margin-left:1.5em;
+              font-size:0.8em;
+            }
+          }
+        }
+
+      }
+    }
+
+
+  }
+  .center{
+    width:100%;
+    text-align:center;
+    margin:30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .front-page{
+    article{
+      .img-box{
+        width:40%;
+      }
+      >article{
+        width:55%;
+      }
+    }
+  }
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .front-page{
+    margin:0 10px;
+    article{
+      .img-box{
+        width:100%;
+      }
+      .img-box.yoko{
+        display:flex;
+        flex-wrap: wrap;
+        img {
+          width: calc(100% / 2 );
+        }
+      }
+
+      >article{
+        width:100%;
+        >h3{
+          margin-top:40px;
+          text-align:center;
+          display:block;
+        }
+
+      }
+    }
+
+    .center{
+      margin:0;
+    }
+  }
+  .left,.right{
+    float:none;
+  }
+
+
+}

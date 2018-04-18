@@ -1,0 +1,93 @@
+/*common*/
+
+*{
+  box-sizing: border-box;
+  text-transform: none !important;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+li{
+  list-style: none;
+}
+
+
+.right{
+  float:right;
+}
+.left{
+  float:left;
+}
+
+
+
+button{
+  margin:30px auto 0px;
+  padding:20px 0;
+  width:350px;
+  border:1px solid #fda319;
+  color:#fda319;
+  font-size:1.2em;
+  display: block;
+}
+
+/*変数*/
+/*1200px以上*/
+
+
+
+/*header*/
+
+
+.site-header{
+
+  background-color: #000;
+
+  .navbar-header{
+    .site-branding{
+      .site-title{
+        a{
+          color:#fff;
+        }
+      }
+
+    }
+  }
+
+  .menu-global-navi-container{
+    ul{
+      li{
+        a{
+          color:#fff;
+        }
+        a:hover{
+          text-decoration: none;
+        }
+      }
+      li#menu-item-38{
+        a {
+          background-color: #8B0000;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+}
+
+#hero{
+  .hero-content.big-hero.front-page-hero {
+    .container{
+      .hero-title-container{
+        .front-page-title{
+           p{
+             background:none;
+           }
+        }
+      }
+    }
+  }
+}

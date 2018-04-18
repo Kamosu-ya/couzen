@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/*
+ Theme Name:   belise-lite-child
+ Description:  belise-lite-child
+ Author:       machiko nakamura
+ Template:     belise-lite
+ Version:      1.0.5
+*/
+/*common*/
+* {
+  box-sizing: border-box;
+  text-transform: none !important;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+li {
+  list-style: none;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+button {
+  margin: 30px auto 0px;
+  padding: 20px 0;
+  width: 350px;
+  border: 1px solid #fda319;
+  color: #fda319;
+  font-size: 1.2em;
+  display: block;
+}
+
+/*変数*/
+/*1200px以上*/
+/*header*/
+.site-header {
+  background-color: #000;
+}
+
+.site-header .navbar-header .site-branding .site-title a {
+  color: #fff;
+}
+
+.site-header .menu-global-navi-container ul li a {
+  color: #fff;
+}
+
+.site-header .menu-global-navi-container ul li a:hover {
+  text-decoration: none;
+}
+
+.site-header .menu-global-navi-container ul li#menu-item-38 a {
+  background-color: #8B0000;
+  padding: 10px 20px;
+}
+
+#hero .hero-content.big-hero.front-page-hero .container .hero-title-container .front-page-title p {
+  background: none;
+}
+
+/*front-page*/
+.front-page {
+  color: #fff;
+}
+
+.front-page article {
+  width: 100%;
+  color: #fff;
+  padding: 60px 0px;
+}
+
+.front-page article h2 {
+  display: block;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.front-page article .img-box {
+  width: 500px;
+}
+
+.front-page article .img-box.box2 {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.front-page article .img-box.box2 img {
+  width: calc(100% / 2);
+}
+
+.front-page article .img-box.yoko {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.front-page article .img-box.yoko img {
+  width: calc( 100% / 6);
+  height: auto;
+}
+
+.front-page article > article {
+  padding-top: 0px;
+  width: 600px;
+}
+
+.front-page article > article h3 {
+  margin-top: 0px;
+  padding-top: 0px;
+  display: inline-block;
+  color: #fda319;
+}
+
+.front-page article > article button {
+  margin: 30px auto 0px;
+  padding: 20px 0;
+  width: 350px;
+  border: 1px solid #fda319;
+  color: #fda319;
+  font-size: 1.4em;
+  display: block;
+}
+
+.front-page article > article > p {
+  line-height: 1.8;
+}
+
+.front-page article > article > .course-detail {
+  border: 1px solid #dcdcdc;
+  padding: 15px;
+  margin: 25px 0;
+}
+
+.front-page article > article > .course-detail p {
+  margin-left: 1em;
+}
+
+.front-page article > article > .course-detail ul li {
+  line-height: 1.8;
+}
+
+.front-page article > article > .course-detail ul li span {
+  margin-left: 1.5em;
+  font-size: 0.8em;
+}
+
+.front-page .center {
+  width: 100%;
+  text-align: center;
+  margin: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .front-page article .img-box {
+    width: 40%;
+  }
+  .front-page article > article {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .front-page {
+    margin: 0 10px;
+  }
+  .front-page article .img-box {
+    width: 100%;
+  }
+  .front-page article .img-box.yoko {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .front-page article .img-box.yoko img {
+    width: calc(100% / 2);
+  }
+  .front-page article > article {
+    width: 100%;
+  }
+  .front-page article > article > h3 {
+    margin-top: 40px;
+    text-align: center;
+    display: block;
+  }
+  .front-page .center {
+    margin: 0;
+  }
+  .left, .right {
+    float: none;
+  }
+}
+
+/*page-in*/
+.site-main.page-in .entry-content h2 {
+  text-align: center;
+}
+
+#access-footer .detail {
+  width: 600px;
+}
+
+#access-footer .detail dl dt {
+  width: 100px;
+  float: left;
+}
+
+#access-footer .detail dl dd {
+  width: 500px;
+  float: left;
+  margin: 0 0 1em 0;
+}
+
+#access-footer .fb {
+  margin: 50px 0 0 0;
+}
+
+@media screen and (max-width: 1000px) {
+  #access-footer .detail {
+    width: 100%;
+  }
+  #access-footer .detail h3 {
+    text-align: center;
+  }
+  #access-footer .detail dl {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  #access-footer .detail dl dt {
+    width: 100px;
+  }
+  #access-footer .detail dl dd {
+    width: calc( 100% - 100px);
+  }
+  #access-footer .fb {
+    width: 100%;
+  }
+}
