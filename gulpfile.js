@@ -23,7 +23,8 @@ gulp.task('sass', function () {
 
 gulp.task('browser-sync', function () {
     browserSync({
-        proxy: 'localhost:8888'
+        proxy: 'localhost:8888',
+        port:'8888'
     });
 });
 

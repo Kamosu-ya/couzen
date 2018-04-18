@@ -85,6 +85,11 @@ button {
   padding: 40px 0;
 }
 
+.front-page article h2 .span {
+  display: block;
+  font-size: 0.9em;
+}
+
 .front-page article .img-box {
   width: 500px;
 }

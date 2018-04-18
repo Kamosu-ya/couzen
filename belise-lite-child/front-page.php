@@ -54,7 +54,7 @@ get_header(); ?>
                     </article>
 
                     <article class="dish clearfix">
-                        <h2>料理/アラカルト</h2>
+                        <h2>menu<span>料理/アラカルト</span></h2>
 
                         <div class="img-box yoko center">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dish01.jpg">
@@ -81,7 +81,7 @@ get_header(); ?>
 
 
                     <article class="drink clearfix">
-                        <h2>ドリンク</h2>
+                        <h2>drink<span>ドリンク</span></h2>
 
                         <div class="img-box box2 right">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dish01.jpg">
@@ -107,7 +107,7 @@ get_header(); ?>
 
 
                     <article class="course clearfix">
-                        <h2>コース料理</h2>
+                        <h2>course<span>コース料理</span></h2>
                         <div class="img-box box2 left">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dish01.jpg">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dish02.png">
