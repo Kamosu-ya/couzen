@@ -3,6 +3,7 @@
 *{
   box-sizing: border-box;
   text-transform: none !important;
+  color:#fff;
 }
 
 .clearfix::after{
@@ -23,6 +24,27 @@ li{
   float:left;
 }
 
+h1 {
+  text-align: center;
+
+}
+
+
+h2{
+  display: block;
+  text-align:center;
+  padding:40px 0;
+  span{
+    display:block;
+    font-size:0.7em;
+  }
+}
+
+
+h3 {
+  font-size: 1.8em;
+  display: block;
+}
 
 
 button{

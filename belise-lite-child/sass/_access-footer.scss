@@ -1,4 +1,6 @@
 #access-footer{
+  width:1079px;
+  margin:0 auto 50px;
   .detail{
     width:600px;
     dl{
@@ -23,6 +25,7 @@
 
 @media screen and (max-width: 1000px) {
   #access-footer {
+    width:100%;
     .detail {
       width: 100%;
       h3{
