@@ -14,6 +14,11 @@
 
 get_header(); ?>
 
+    <div class="slider">
+        <?php echo do_shortcode('[metaslider id="178"]'); ?>
+        <?php ?>
+    </div>
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main front-page">
 			<div class="container posts-container">
@@ -37,7 +42,7 @@ get_header(); ?>
 			<div class="container front">
 				<div class="row">
                     <article class="couzen clearfix">
-                        <h2>dining bar couzen</h2>
+<!--                        <h2>dining bar couzen</h2>-->
 
 
                         <div class="img-box left">
@@ -210,6 +215,8 @@ get_header(); ?>
 			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
+
 
 <?php
 get_footer();

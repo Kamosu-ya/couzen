@@ -90,6 +90,23 @@ button {
 }
 
 /*front-page*/
+#hero {
+  display: none !important;
+}
+
+.top-bar {
+  display: none !important;
+}
+
+.slider {
+  width: 100%;
+  position: relative;
+}
+
+.slider > div {
+  margin: 0 auto;
+}
+
 .front-page {
   color: #fff;
 }
@@ -295,6 +312,14 @@ button {
   background: #2d2d2d;
 }
 
+.entry-content {
+  margin: 0px 150px 95px;
+}
+
+.content-area {
+  padding-top: 0px;
+}
+
 .eye-img {
   width: 100vw;
   height: 20vw;
@@ -303,7 +328,7 @@ button {
 }
 
 .col-2 {
-  width: 1050px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -374,7 +399,7 @@ button {
 }
 
 .menu-img > .menu-img-in {
-  width: 45%;
+  width: 50%;
   padding: 10px;
 }
 
@@ -385,4 +410,38 @@ button {
 .menu-img > .menu-img-in > p {
   line-height: 1em;
   font-size: 1.1em;
+}
+
+@media screen and (max-width: 980px) {
+  .entry-content {
+    margin: 0px 20px 95px;
+  }
+  .col-2 {
+    width: 100%;
+  }
+  .col-2 .menu-text {
+    width: 47.5%;
+  }
+  .col-2 .menu-img {
+    width: 47.5%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .entry-content {
+    margin: 0px 10px 95px;
+  }
+  .col-2 {
+    width: 100%;
+    display: block;
+  }
+  .col-2 .menu-text {
+    width: 100%;
+  }
+  .col-2 .menu-img {
+    width: 100%;
+    float: none;
+    margin-left: 0px;
+  }
 }
